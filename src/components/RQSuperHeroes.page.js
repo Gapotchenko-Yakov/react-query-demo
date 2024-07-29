@@ -1,5 +1,5 @@
 import axios from "axios";
-import React from "react";
+import React, { useState } from "react";
 import { useQuery } from "react-query";
 
 const fetchSuperHeroes = () => {
@@ -7,7 +7,12 @@ const fetchSuperHeroes = () => {
 };
 
 const RQSuperHeroesPage = () => {
+  const [refetchInterval, setRefetchInterval] = useState(3000);
+
   const onSuccess = (data) => {
+    if (data.data.length === 4) setRefetchInterval(false);
+    else setRefetchInterval(3000);
+
     console.log("Perform side effect after data fetching", data);
   };
 
@@ -19,6 +24,7 @@ const RQSuperHeroesPage = () => {
     "super-heroes",
     fetchSuperHeroes,
     {
+      refetchInterval,
       onSuccess,
       onError,
     }

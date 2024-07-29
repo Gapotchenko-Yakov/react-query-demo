@@ -12,8 +12,13 @@
     },
     {
       "id": 3,
-      "name": "Wonder Woman 1",
+      "name": "Wonder Woman",
       "alterEgo": "Princess Diana"
+    },
+    {
+      "id": 4,
+      "name": "Green Arrow",
+      "alterEgo": "Oliver Queen"
     }
   ],
   "friends": [
