@@ -9,10 +9,10 @@ const useSuperHeroesData = ({ onSuccess, onError }) => {
   return useQuery("super-heroes", fetchSuperHeroes, {
     onSuccess,
     onError,
-    select: (data) =>
-      data.data
-        .map((hero) => hero.name)
-        .filter((name) => !["Superman"].includes(name)),
+    // select: (data) =>
+    //   data.data
+    //     .map((hero) => hero.name)
+    //     .filter((name) => !["Superman"].includes(name)),
   });
 };
 
