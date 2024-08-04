@@ -26,14 +26,19 @@
       "alterEgo": "Barry Allen"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Shazam",
       "alterEgo": "Billy Batson"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Catwoman",
       "alterEgo": "Selina Kyle"
+    },
+    {
+      "id": 8,
+      "name": "Ironman",
+      "alterEgo": "Tony Stark"
     }
   ],
   "friends": [

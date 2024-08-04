@@ -55,7 +55,7 @@ const RQSuperHeroesPage = () => {
         <button onClick={handleAddHeroClick}>Add Hero</button>
       </div>
       <button onClick={refetch}>Fetch Heroes</button>
-      {data.data.map((hero) => (
+      {data?.data?.map((hero) => (
         <div key={hero.id}>
           <Link to={`/rq-super-heroes/${hero.id}`}>{hero.name}</Link>
         </div>
