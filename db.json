@@ -29,6 +29,11 @@
       "id": 6,
       "name": "Shazam",
       "alterEgo": "Billy Batson"
+    },
+    {
+      "id": 7,
+      "name": "Catwoman",
+      "alterEgo": "Selina Kyle"
     }
   ],
   "friends": [
