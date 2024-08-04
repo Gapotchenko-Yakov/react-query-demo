@@ -24,6 +24,11 @@
       "id": "5",
       "name": "The Flash",
       "alterEgo": "Barry Allen"
+    },
+    {
+      "id": 6,
+      "name": "Shazam",
+      "alterEgo": "Billy Batson"
     }
   ],
   "friends": [
@@ -49,7 +54,11 @@
   "channels": [
     {
       "id": "threads",
-      "courses": ["react", "vue", "angular"]
+      "courses": [
+        "react",
+        "vue",
+        "angular"
+      ]
     }
   ],
   "colors": [
